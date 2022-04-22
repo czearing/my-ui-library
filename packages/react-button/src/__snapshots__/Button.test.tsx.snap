@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders a basic Button 1`] = `
+<body>
+  <div>
+    <button>
+      Hello World
+    </button>
+  </div>
+</body>
+`;

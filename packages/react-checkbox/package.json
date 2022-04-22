@@ -1,0 +1,15 @@
+{
+  "name": "@my-ui-library/react-checkbox",
+  "version": "0.0.0",
+  "description": "This is my description",
+  "main": "lib-commonjs/index.js",
+  "module": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "sideEffects": false,
+  "license": "MIT",
+  "scripts": {
+    "start": "start-storybook",
+    "build": "tsc --module commonjs --outDir lib-commonjs & tsc",
+    "test": "jest-test"
+  }
+}
