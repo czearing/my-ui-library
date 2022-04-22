@@ -1,10 +1,24 @@
 {
   "name": "my-ui-library",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "private": true,
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/czearing/ui-library-example"
+  },
+  "scripts": {
+    "build": "nx run-many --target=build --all",
+    "test": "nx run-many --target=test --all"
+  },
   "devDependencies": {
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "nx": "^14.0.1",
+    "@nrwl/cli": "13.10.2",
+    "@nrwl/jest": "13.10.2",
+    "@nrwl/nx-cloud": "13.3.1",
+    "@nrwl/tao": "13.10.2",
+    "@nrwl/workspace": "13.10.2"
   },
   "workspaces": [
     "apps/*",
