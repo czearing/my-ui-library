@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "projects": {
+    "@my-ui-library/react-button": {
+      "root": "packages/react-button",
+      "projectType": "library",
+      "implicitDependencies": []
+    }
+  }
+}
