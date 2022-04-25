@@ -13,10 +13,10 @@
   },
   "devDependencies": {
     "prettier": "^2.6.2",
-    "nx": "^14.0.1",
+    "nx": "14.0.2",
     "@nrwl/cli": "13.10.2",
     "@nrwl/jest": "13.10.2",
-    "@nrwl/nx-cloud": "13.3.1",
+    "@nrwl/nx-cloud": "latest",
     "@nrwl/tao": "13.10.2",
     "@nrwl/workspace": "13.10.2"
   },
