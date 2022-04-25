@@ -9,7 +9,11 @@
   },
   "scripts": {
     "build": "nx run-many --target=build --all",
-    "test": "nx run-many --target=test --all"
+    "lint": "nx run-many --target=lint --all",
+    "test": "nx run-many --target=test --all",
+    "start": "start-storybook",
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=9e5545ed9996"
   },
   "devDependencies": {
     "prettier": "^2.6.2",
@@ -18,7 +22,8 @@
     "@nrwl/jest": "13.10.2",
     "@nrwl/nx-cloud": "latest",
     "@nrwl/tao": "13.10.2",
-    "@nrwl/workspace": "13.10.2"
+    "@nrwl/workspace": "13.10.2",
+    "@storybook/react": "^6.4.22"
   },
   "workspaces": [
     "apps/*",
